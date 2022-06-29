@@ -1,0 +1,37 @@
+.footer {
+  max-width: 100%;
+  background-color: #000;
+  padding: 30px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer__left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__left button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.footer__left i {
+  margin-right: 30px;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.footer__left i:hover {
+  color: #d87d4a;
+}
+
+.footer__right {
+  color: #fff;
+}
